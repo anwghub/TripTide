@@ -1,2 +1,2 @@
 # TripTide
-A travel web app using react js
+A travel web app using next js
