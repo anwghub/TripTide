@@ -4,7 +4,7 @@ export default function Document() {
   return (
     <Html lang="en">
       <Head />
-      <body className="text-nunito">
+      <body className="fontFamily-nunito">
         <Main />
         <NextScript />
       </body>

@@ -2,3 +2,11 @@
 
 @import "tailwindcss";
 
+@layer components{
+  .nav-link{
+    @apply relative text-black font-bold cursor-pointer text-[17px] w-fit lg:block after:block after:content-[''] after:absolute after:h-[3px] after:bg-purple-600 after:w-full after:scale-x-0 hover:after:scale-x-100 after:transition after:duration-300 after:origin-center uppercase hover:text-purple-800;
+  }
+  .nav-link-mobile{
+    @apply relative mb-[2rem] text-white font-bold cursor-pointer text-[25px] w-fit lg:hidden after:block after:content-[''] after:absolute after:h-[3px] after:bg-purple-600 after:w-full after:scale-x-0 hover:after:scale-x-100 after:transition after:duration-300 after:origin-center uppercase hover:text-purple-200;
+  }
+}
