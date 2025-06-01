@@ -9,4 +9,14 @@
   .nav-link-mobile{
     @apply relative mb-[2rem] text-white font-bold cursor-pointer text-[25px] w-fit lg:hidden after:block after:content-[''] after:absolute after:h-[3px] after:bg-purple-600 after:w-full after:scale-x-0 hover:after:scale-x-100 after:transition after:duration-300 after:origin-center uppercase hover:text-purple-200;
   }
+
+  .heading{
+    @apply text-3xl font-bold text-center text-purple-800 mb-4;
+  }
+  .destination__h1{
+    @apply text-[20px] font-semibold text-center text-purple-800 mt-[1rem];
+  }
+  .destination__p{
+    @apply text-[16px] text-center text-black font-semibold opacity-70;
+  }
 }
