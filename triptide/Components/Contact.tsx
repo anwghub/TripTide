@@ -9,7 +9,7 @@ const Contact = () => {
           {/* Image Section */}
           <div data-aos="fade-right" data-aos-delay="600" className="flex justify-center">
             <Image
-              src="/images/c1.png"
+              src="/images/journey.jpg"
               alt="fly"
               width={500}
               height={300}
@@ -20,7 +20,7 @@ const Contact = () => {
           {/* Text + Form Section */}
           <div className="flex flex-col items-center lg:items-start text-center lg:text-left">
             <h1 className="text-[30px] text-black font-bold">
-              Get special offers and more from Traveler
+              Get special offers and more from TripTide
             </h1>
             <p className="text-[18px] text-black opacity-70 mt-2">
               We are here to help you with your travel needs.

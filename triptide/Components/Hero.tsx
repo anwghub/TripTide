@@ -16,7 +16,7 @@ const Hero = () => {
         />
 
         {/* Overlay */}
-        <div className="absolute top-0 left-0 w-full h-full bg-blue-800 opacity-50 z-10" />
+        <div className="absolute top-0 left-0 w-full h-full bg-purple-800 opacity-50 z-10" />
 
         {/* Content */}
         <div className="absolute z-20 top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-full px-4">

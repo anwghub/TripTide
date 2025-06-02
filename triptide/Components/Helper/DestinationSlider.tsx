@@ -25,19 +25,19 @@ const DestinationSlider = () => {
   return (
     <Carousel additionalTransfrom={0} arrows={true} autoPlay={true} autoPlaySpeed={5000} centerMode={false} infinite={true} keyBoardControl={true} responsive={responsive} itemClass='item' >
         <div>
-            <Image src="/images/d1.png"
+            <Image src="/images/d1.webp"
             alt="destination" width={200} height={200} className="rounded-full mx-auto"/>
             <h1 className='destination__h1'>New Work</h1>
             <p className='destination__p'>7 Hotels</p>
         </div>
         <div>
-            <Image src="/images/d2.png"
+            <Image src="/images/d2.webp"
             alt="destination" width={200} height={200} className="rounded-full mx-auto"/>
             <h1 className='destination__h1'>Japan</h1>
             <p className='destination__p'>10 Hotels</p>
         </div>
         <div>
-            <Image src="/images/d3.png"
+            <Image src="/images/d3.avif"
             alt="destination" width={200} height={200} className="rounded-full mx-auto"/>
             <h1 className='destination__h1'>South Korea</h1>
             <p className='destination__p'>5 Hotels</p>

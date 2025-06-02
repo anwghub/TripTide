@@ -28,7 +28,7 @@ const HotelCard = ({ name, city, image, price, reviewNumber }: Props) => {
                 <p className='text-[15px] text-black opacity-700 mt-[0.4rem]'>{city}</p>
                 <div className='opacity-60 w-[100%] h-[0.8px] mt-[1rem] bg-gray-800'></div>
                 <div className='flex items-center mt-[0.5rem] space-x-3'>
-                    <h1 className='border-[2px] rounded-md border-opacity-50 text-purple-800 font-bold px-3 py-1 border-purple-400'>4.7/5</h1>
+                    <h1 className='border-[2px] rounded-md border-opacity-50 text-purple-800 font-bold px-3 py-1 border-purple-400'>4.8/5</h1>
                     <h1 className='text-[16px] text-black items-center space-x-4 font-bold flex'>
                         <span>Excellent</span>
                         <span className='text-[16px] text-black opacity-60 font-normal'>
