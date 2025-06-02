@@ -1,2 +1,2 @@
 # TripTide
-A travel web app using next js
+A travel web app using Next.js, TypeScript, Tailwind CSS.
